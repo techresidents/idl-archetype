@@ -1,0 +1,13 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+Metadata-Version: 1.0
+Name: ${svcname}
+Version: ${project.version}
+Summary: 30and30 Service
+Home-page: UNKNOWN
+Author: 30and30
+Author-email: UNKNOWN
+License: 30and30
+Description: 30and30 Service
+Platform: UNKNOWN
