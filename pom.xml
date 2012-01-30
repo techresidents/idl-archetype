@@ -8,7 +8,7 @@
     <version>0.1-SNAPSHOT</version>
   </parent>
 
-  <groupId>com.techresidents.services.core</groupId>
+  <groupId>com.techresidents.services.core.idl</groupId>
   <artifactId>idl-archetype</artifactId>
   <version>0.1-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
@@ -35,9 +35,9 @@
   </build>
 
   <scm>
-    <connection>scm:git:git://dev.30and30.com/30and30/repos/techresidents.git</connection>
-    <developerConnection>scm:git:git://dev.30and30.com/30and30/repos/techresidents.git</developerConnection>
-    <url>scm:git:git://dev.30and30.com/30and30/repos/techresidents.git</url>
+    <connection>scm:git:git://dev.30and30.com/30and30/repos/techresidents/services/core/idl/idl-archetype.git</connection>
+    <developerConnection>scm:git:git://dev.30and30.com/30and30/repos/techresidents/services/core/idl/idl-archetype.git</developerConnection>
+    <url>scm:git:git://dev.30and30.com/30and30/repos/techresidents/services/core/idl/idl-archetype.git</url>
   </scm>
 
 </project>

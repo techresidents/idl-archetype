@@ -70,7 +70,8 @@
                             <arguments>
                                 <argument>-o</argument>
                                 <argument>${project.build.directory}/generated-sources/thrift</argument>
-                                <argument>-r</argument>
+                                <argument>-I</argument>
+                                <argument>${basedir}/../idl/target/generated-sources/idl-core</argument>
                                 <argument>--gen</argument>
                                 <argument>py</argument>
                                 <argument>${basedir}/../idl/${svcname}.thrift</argument>

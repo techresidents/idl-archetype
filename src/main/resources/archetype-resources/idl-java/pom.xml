@@ -46,7 +46,8 @@
                             <arguments>
                                 <argument>-o</argument>
                                 <argument>${project.build.directory}/generated-sources/thrift</argument>
-                                <argument>-r</argument>
+                                <argument>-I</argument>
+                                <argument>${basedir}/../idl/target/generated-sources/idl-core</argument>
                                 <argument>--gen</argument>
                                 <argument>java</argument>
                                 <argument>${basedir}/../idl/${svcname}.thrift</argument>
@@ -78,7 +79,13 @@
 
     <dependencies>
 
-        <!-- Intra-project dependencies -->
+        <!-- Internal dependencies -->
+
+        <dependency>
+            <groupId>com.techresidents.services.core.idl</groupId>
+            <artifactId>idl-core-java</artifactId>
+        </dependency>
+
 
         <!-- Thridy party dependencies -->
 

@@ -8,15 +8,17 @@
     <requiredProperty key="servicesPomVersion"> </requiredProperty>
     <requiredProperty key="ServiceName"> </requiredProperty>
   </requiredProperties>
-  <fileSets>
-    <fileSet filtered="true" encoding="UTF-8">
-      <directory>idl</directory>
-      <includes>
-        <include>**/*.thrift</include>
-      </includes>
-    </fileSet>
-  </fileSets>
   <modules>
+    <module id="${rootArtifactId}-idl" dir="idl" name="${rootArtifactId}-idl" >
+        <fileSets>
+          <fileSet filtered="true" encoding="UTF-8">
+            <directory></directory>
+            <includes>
+              <include>**/*.thrift</include>
+            </includes>
+          </fileSet>
+        </fileSets>
+    </module>
     <module id="${rootArtifactId}-java" dir="idl-java" name="${rootArtifactId}-java" />
     <module id="${rootArtifactId}-python" dir="idl-python" name="${rootArtifactId}-python">
       <fileSets>
