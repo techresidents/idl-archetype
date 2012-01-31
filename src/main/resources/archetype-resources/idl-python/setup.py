@@ -10,7 +10,7 @@ setup(name='techresidents services ${svcname}',
       description='30and30 Service',
       packages=['techresidents',
                 'techresidents.services',
-                'techresidents.services.${svcname}'
+                'techresidents.services.${svcname}',
                 'techresidents.services.${svcname}.gen']
     )
 

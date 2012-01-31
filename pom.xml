@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.techresidents.services.core</groupId>
+    <groupId>com.techresidents.services.core.java</groupId>
     <artifactId>services-pom</artifactId>
     <version>0.1-SNAPSHOT</version>
   </parent>
