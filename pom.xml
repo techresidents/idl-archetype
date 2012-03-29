@@ -10,7 +10,7 @@
 
   <groupId>com.techresidents.services.core.idl</groupId>
   <artifactId>idl-archetype</artifactId>
-  <version>0.3-SNAPSHOT</version>
+  <version>0.3.0</version>
   <packaging>maven-archetype</packaging>
 
   <name>idl-archetype</name>
