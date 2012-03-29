@@ -6,8 +6,6 @@ namespace py tr${svcname}.gen
 
 include "core.thrift"
 
-service T${ServiceName}
+service T${ServiceName} extends core.TRService
 {
-    string getVersion(1:core.RequestContext requestContext),
-    string getBuildNumber(1:core.RequestContext requestContext)
 }
