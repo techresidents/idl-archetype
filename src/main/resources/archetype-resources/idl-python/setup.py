@@ -7,7 +7,7 @@ from distutils.core import setup
 
 setup(name='tr${svcname}',
       version='${project.version}',
-      description='30and30 Service',
+      description='Tech Residents Service',
       packages=['tr${svcname}',
                 'tr${svcname}.gen']
     )
